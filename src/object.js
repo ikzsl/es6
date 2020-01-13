@@ -19,8 +19,6 @@ let person = {
   }
 };
 
-
-
 person.sayHello();
 
 const createCar = (property, value) => {
