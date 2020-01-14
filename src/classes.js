@@ -1,5 +1,4 @@
 class Task {
-
   constructor(title = Task.gedDefaulTitle()) {
     this.title = title;
     this._done = false;
@@ -32,6 +31,9 @@ class Task {
 Task.count = 0;
 
 let task = new Task();
-// task.complete();
+let task2 = new Task();
+task.complete();
+
+console.log(Task.count)
 
 
